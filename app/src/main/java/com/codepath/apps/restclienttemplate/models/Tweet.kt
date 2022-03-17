@@ -1,16 +1,17 @@
 package com.codepath.apps.restclienttemplate.models
 
+import android.os.Parcelable
 import android.util.Log
 import org.json.JSONArray
 import org.json.JSONObject
 import java.text.SimpleDateFormat
 import java.time.LocalTime
 import com.codepath.apps.restclienttemplate.models.TimeFormatter
+import kotlinx.parcelize.Parcelize
 
-class Tweet {
-    var body: String = ""
-    var createdAt: String = ""
-    var user: User? = null
+@Parcelize
+class Tweet(var body: String = "", var createdAt: String = "", var user: User? = null ):
+    Parcelable {
 
     companion object{
 
