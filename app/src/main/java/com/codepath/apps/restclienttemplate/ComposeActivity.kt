@@ -34,6 +34,7 @@ class ComposeActivity : AppCompatActivity() {
                 // Snackbar message ...
             }
             if(tweetContent.length > 140){
+            if(tweetContent.length > 280){
                 Toast.makeText(this, "Tweet is too long! Limit is 140 characters", Toast.LENGTH_SHORT).show()
             }else{
                 client.publishTweet(tweetContent, object: JsonHttpResponseHandler(){
