@@ -35,8 +35,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src="https://user-images.githubusercontent.com/45988719/159104892-9cfffc6f-4fe6-4980-8f6a-6c8e606254dd.gif" width=250><br>  
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 It has been a very interesting project working more with an API. I still have to finish things to have the countdown ready and work on have the app looking better. I spent the last hours trying to fix the count max words but could not make it to work correctly.
